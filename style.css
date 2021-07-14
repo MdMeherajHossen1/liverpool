@@ -19,6 +19,7 @@ main{
 
 .container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -164,6 +165,46 @@ header:hover .heading-banner img{
 }
 /* honours ends here */
 
+
+/*---------------------------
+   Point Table style starts
+-----------------------------*/
+table{
+    border-collapse: collapse;
+    width: 90%;
+    margin-top: 60px;
+    text-align: center;
+}
+caption{
+    font-size: 1.2rem;
+    color: purple;
+    font-weight: bold;
+}
+
+th{
+    background-color: purple;
+    color: white;
+}
+th, td{
+    border: 1px solid black;
+    border: none;
+    padding: 0.5rem;
+
+}
+tr:nth-child(even){
+    background-color: grey;
+    color: white;
+}
+tr:nth-child(odd){
+    background-color: lightblue;
+    
+} 
+td:nth-child(2){
+    font-size: 1rem;
+}
+
+
+/*--------point table ends here */
 
 
 
