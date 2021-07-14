@@ -303,3 +303,16 @@ td:nth-child(2){
 
 
 /*-------------TAB STYLE STARTS FROM HERE---------- */
+
+
+@media only screen and (max-width:992px) {
+  .heading{
+      flex-direction: column;
+  }
+
+  .players, .honours{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+/*-------------TAB STYLE ENDS HERE------------------------- */
