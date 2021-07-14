@@ -85,7 +85,7 @@ nav a{
 .heading-banner img{
     width: 556px;
     height: 438px;
-    transition: transform 1s ease-in-out;
+    transition: transform 3s ease-in-out;
 }
 
 header:hover .heading-banner img{
@@ -137,6 +137,7 @@ header:hover .heading-banner img{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 30px;
+    grid-row-gap: 30px;
   
     
 }
@@ -250,3 +251,55 @@ td:nth-child(2){
 /*------------------------
      footer ends here
 -------------------------*/
+
+
+
+
+/*--------------------------------
+    MEDIA QUERY STARTS FROM HERE
+-----------------------------------*/
+
+/*-----------FOR MOBILE------------ */
+
+@media only screen and (max-width:688px) {
+    nav{
+        justify-content: center;
+    }
+    header{
+        padding: 36px 16px 61px 15px;
+    }
+    .heading{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 30px;
+    }
+    .heading-title{
+        
+        font-size: 36px;
+    }
+    .heading-banner img{
+        height: 259px;
+        width : 329px;
+        transition: transform 3s ease-in-out;
+    }
+    header:hover .heading-banner img{
+        transform: scale(0.8) rotate(-45deg);
+    }
+
+
+    .players, .honours{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .footer-cover img{
+        width: 275px;
+        height: 63px;
+    }
+}
+
+
+/*---------------MOBILE STYLE ENDS HERE------------ */
+
+
+
+/*-------------TAB STYLE STARTS FROM HERE---------- */
