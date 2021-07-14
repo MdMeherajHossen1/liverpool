@@ -9,7 +9,7 @@ body{
 }
 header{
     background-color: #2D25A0;
-    padding: 30px 80px 70px 95px;
+    padding: 42px 80px 86px 90px;
    
 }
 main{
@@ -21,6 +21,10 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.title{
+    text-align: center;
+    color: purple;
 }
 
 
@@ -83,7 +87,7 @@ nav a{
     transition: transform 1s ease-in-out;
 }
 
-.heading:hover .heading-banner img{
+header:hover .heading-banner img{
     transform: rotate(45deg) translate(-100px,-100px);
 }
 /*----------------------------------
@@ -122,6 +126,43 @@ nav a{
 /*-------------------------
   players section ends here
 -----------------------------*/
+
+
+/*-------------------------
+  Honours style starts here 
+----------------------------*/
+
+.honours{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+  
+    
+}
+.honour{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.honour-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.honour-heading img{
+    width: 150px;
+    height: 170px;
+}
+.honour-times{
+    font-size: 90px;
+    margin: 0px;
+    color: goldenrod;
+}
+/* honours ends here */
 
 
 
@@ -164,3 +205,7 @@ nav a{
 .fa-linkedin-in{
    color:  #0e76a8 ;
 }
+
+/*------------------------
+     footer ends here
+-------------------------*/
