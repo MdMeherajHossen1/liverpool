@@ -1,0 +1,124 @@
+/* Google fonts style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common and utilites style  */
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #2D25A0;
+    padding: 30px 80px 70px 95px;
+   
+}
+main{
+    background-color: white;
+    margin-top: 70px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/*--------------------------------
+      Nav and heading style
+----------------------------------*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-right: 36px;
+}
+.nav-btn{
+    background: #E02C6D;
+    padding: 5px;
+    border: none;
+    color: white;
+}
+.fa-sign-in-alt{
+    margin-right: 5px;
+    
+}
+
+/*-------heading style------*/
+
+.heading{
+    display: flex;
+   justify-content: space-between;
+   padding-top: 67px;
+}
+
+.heading-title{
+    color: white;
+    font-weight: bold;
+    font-size: 64px;
+}
+.watch-btn{
+    background: #E02C6D;
+    padding: 10px 24px;
+    border: none;
+    color: white;
+}
+.fa-arrow-right{
+    margin-left: 5px;
+}
+
+.heading-banner img{
+    width: 556px;
+    height: 438px;
+    transition: transform 1s ease-in-out;
+}
+
+.heading:hover .heading-banner img{
+    transform: rotate(45deg) translate(-100px,-100px);
+}
+/*----------------------------------
+      navbar and heading ends here
+------------------------------------*/
+
+
+/*-----------------------------
+  players section starts here
+------------------------------- */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+
+.player{
+    display: flex;
+    width: 330px;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 15px 15px 33px 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player img{
+    height: 256px;
+     width: 300px;
+}
+.player-name{
+    font-size: 28px;
+    margin-bottom: 0px;
+    margin-top: 16px;
+}
+/*-------------------------
+  players section ends here
+-----------------------------*/
